@@ -1,4 +1,5 @@
 Question1:(Twisted Prime Checker)
+
 A number is said to be twisted prime if it is a prime number and reverse of the number is also a prime number.
 
 Input:
