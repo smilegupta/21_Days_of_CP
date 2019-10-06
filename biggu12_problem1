@@ -1,0 +1,16 @@
+
+def prob1():
+    a=0
+    p=[]
+    while(a<3):
+        x=input()
+        p.append(x)
+        a+=1
+    print(int(p[0])+4)
+
+    print(float(p[1])+4)
+
+    print(p[2]+' is the favourite fest of all developers.')
+
+
+prob1()
