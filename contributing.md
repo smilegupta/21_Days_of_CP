@@ -6,9 +6,9 @@ Here are some rules/suggestions/requests!
 
 1) Please don't copy the code for the internet in order to just make a successfull PR. Try to form your logic and code.
 
-2) If you are not able to form the code, please raise and issue and somebody out there will help you to decode the logic behind it.
+2) If you are not able to form the code, please raise an issue and somebody out there will help you to decode the logic behind it.
 
-3) Never hestitate to use verstile data structures to solve a particular problem statement. 
+3) Never hestitate to use versatile data structures to solve a particular problem statement. 
 
 4) Don't forget to add alot of comments in your source code! as in it will be help to evaluate the accurcy of the code.
 
