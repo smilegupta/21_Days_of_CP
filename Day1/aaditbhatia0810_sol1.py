@@ -1,0 +1,6 @@
+a=int(input("write here: "))
+b= float(input("write here: "))
+c=input("write here: ")
+print(a+4)
+print(b+4)
+print("Hacktober",c)
