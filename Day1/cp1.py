@@ -1,6 +1,0 @@
-x=eval(input())
-y=eval(input())
-z=input()
-print(x+int(y))
-print(float(y)+float(y))
-print("Hacktoberfest " + z)
