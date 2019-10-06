@@ -1,0 +1,6 @@
+A=int(input("write here: "))
+B=float(input("write here: "))
+C=str(input("write here: "))
+print(A+4)
+print(B+4)
+print("hactoberfest", C)
