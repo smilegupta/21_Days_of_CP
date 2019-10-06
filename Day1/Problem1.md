@@ -7,8 +7,6 @@ Observe the explanation and code accordingly.
 
 Input:
 
-3 
-
 12
 
 4.0
