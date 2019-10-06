@@ -1,0 +1,7 @@
+print('welcome')
+a = int(input('enter integer here'))
+b = float(input('enter float here'))
+c = str(input('enter string here'))
+print(a+4)
+print(b+4)
+print('hacktoberfest',c)
