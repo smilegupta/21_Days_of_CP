@@ -1,0 +1,6 @@
+a=int(input())
+b=float(input())
+c=str(input())
+print(a+(4))
+print(b+4)
+print("hactoberfest "+c)
