@@ -1,0 +1,15 @@
+n=int(input("Enter the prime number?"))  
+rev=0  
+flag=0  
+while(n>0):  
+    dig=n%10  
+    rev=rev*10+dig  
+    n=n//10  
+for j in range(2, rev//2):  
+    if ((rev % j) == 0):  
+        flag = 1  
+        break  
+if (flag == 0):  
+    print("Twisted Prime")  
+else:  
+    print("Not Twisted Prime")
