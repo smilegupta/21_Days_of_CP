@@ -1,0 +1,6 @@
+a=int(input("input here:"))
+b=float(input('input here:'))
+c=input('input here:')
+print(a+4)
+print(b+4.0)
+print("Hactober "+c)
