@@ -1,0 +1,16 @@
+def first():
+    a=int(input())
+    b=a+4
+    print(b)
+first()
+def second():
+    a=float(input())
+    b=a+4
+    print(b)
+second()
+def third():
+    x=input()
+    y=" Hacktoberfest "
+    print(y+x)
+third()
+
