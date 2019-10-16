@@ -1,0 +1,7 @@
+number=4
+integer_x=int(input())+4
+float_y=float(input())+4
+string_z=input()
+print(integer_x)
+print(float_y)
+print("hactober fest", string_z)
