@@ -1,0 +1,44 @@
+class Main {
+    public static void main(String[] args) 
+    {
+        
+        java.util.Scanner sc= new  java.util.Scanner(System.in);
+        int tc =sc.nextInt();
+        int ar[]=new int[tc];
+        int reversed[]=new int[tc];
+        for(int i=0;i<tc;i++)
+        {
+            ar[i]=sc.nextInt();
+            int num=ar[i];
+            while(num != 0) {
+            int digit = num % 10;
+            reversed[i] = reversed[i] * 10 + digit;
+            num /= 10;
+                
+            }
+        }
+        
+        
+       
+        
+        for(int j=0;j<tc;j++)
+        {
+         int num = reversed[j];
+         boolean flag = false;
+         for(int i = 2; i <= num/2; ++i)
+         {
+            // condition for nonprime number
+            if(num % i == 0)
+            {
+                flag = true;
+                break;
+            }
+         }
+         if (!flag)
+             System.out.println("Yes");
+         else
+             System.out.println("No");
+        }
+    }
+    
+}
