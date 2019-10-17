@@ -1,0 +1,18 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main(){
+	int a;
+	float b;
+	string s;
+	string s1="Hacktoberfest ";
+	
+	cin>>a;
+	cin>>b;
+	fflush(stdin);
+	getline(cin,s);
+	
+	cout<<a+(int)b<<endl;
+	cout<<fixed<<setprecision(1)<<b+b<<endl;
+	cout<<s1+s;
+}
