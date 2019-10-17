@@ -1,0 +1,6 @@
+a1 = int(input())
+a2 = float(input())
+a3 = input()
+print(a1+4)
+print(a2+4)
+print("Hacktoberfest",a3)
