@@ -1,0 +1,10 @@
+#Day 1 problem
+
+fav="Hactoberfest"
+a=int(input())
+b=float(input())
+c=input()
+
+print(a+int(b))
+print(2*b)
+print(fav+c)
