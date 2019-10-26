@@ -1,0 +1,32 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+	bool arr[100002]={false};
+	int t,n,r,s;
+	for (int p=2; p*p<=100002; p++) 
+	{ 
+		if (arr[p] == false) 
+		{ 
+			for (int i=p*p; i<=100002; i += p) 
+				arr[i] = true; 
+		} 
+	}
+	cin>>t; 
+	while(t--)
+	{
+		cin>>n;
+		s=0;
+		int k=n;
+		while(n>0)
+		{
+			r=n%10;
+			s=s*10+r;
+			n=n/10;
+		}
+		if(arr[k]==false && arr[s]==false)
+		cout<<"Yes"<<"\n";
+		else
+		cout<<"No"<<"\n";
+	}
+}
