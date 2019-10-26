@@ -1,0 +1,10 @@
+a=int(input())
+b=float(input())
+string_c=input()
+x=4
+final_a=a+x
+final_b=b+4
+final_z="Hacktoberfest"+string_c
+print(final_a)
+print(final_b)
+print(final_z)
