@@ -12,4 +12,4 @@ If your logic is incorrect your pull request will be considered as invalid.
 
 So buckle and start coding.
 
-I accepted 21 day of CP challenge. Did you??
+I accepted 21 day of CP challenge. Did you???
